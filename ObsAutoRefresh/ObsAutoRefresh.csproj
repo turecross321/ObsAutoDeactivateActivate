@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="LibUsbDotNet" Version="2.2.29" />
+      <PackageReference Include="obs-websocket-dotnet" Version="5.0.0.3" />
+      <PackageReference Include="WpfUsbMonitor" Version="3.2.1" />
+    </ItemGroup>
+
+</Project>
