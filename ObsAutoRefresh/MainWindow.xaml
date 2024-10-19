@@ -53,8 +53,6 @@
                 <Button Content="Add Selected Video Captures" Click="OnAddSelectedSourcesClick" Height="30" Margin="0,5,0,0"/>
                 <Button Content="Reload Video Capture List" Click="OnLoadVideoCapturesClick" Height="30" Margin="0,5,0,0"/>
                 
-                <Button Content="Refresh Devices" Click="OnRefreshDevicesClick" Height="30" Margin="0,20,0,0"/>
-                
                 <TextBlock Text="Video Capture Devices to Refresh" FontWeight="Bold" Margin="0,20,0,5"/>
                 <ListBox x:Name="VideoCaptureDevicesToRefresh"
                          Height="100"
@@ -63,6 +61,8 @@
                          ItemsSource="{Binding}">
                 </ListBox>
                 <Button Content="Remove Selected Video Captures" Click="OnRemoveSelectedSourcesClick" Height="30" Margin="0,5,0,0"/>
+                
+                <Button Content="Refresh Devices" Click="OnRefreshDevicesClick" Height="30" Margin="0,20,0,0"/>
                 
             </StackPanel>
             
