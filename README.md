@@ -6,6 +6,7 @@ An annoyance that I've experienced while using OBS is that video capture devices
 Whenever a USB unplugging is detected by Windows, this script will forcefully refresh all desired video capture devices by using the OBS websocket API. In other words, this is only Windows compatible and not very efficent 👍👍
 
 ## Prerequisites
+- Windows
 - Either OBS version 28 or later, or an older version of OBS with the [websocket plugin](https://github.com/obsproject/obs-websocket/releases).
 
 ## How to use
@@ -19,16 +20,16 @@ Whenever a USB unplugging is detected by Windows, this script will forcefully re
 3. Download the [latest release](https://github.com/turecross321/ObsAutoRefresh/releases) of ObsAutoRefresh
 4. Extract `win-x64.zip` and run `ObsAutoRefresh.exe`
 
-   ![image](https://github.com/user-attachments/assets/0db0e1d5-f614-48d5-bb70-497b95919eb9)
-
-
+   ![image](https://github.com/user-attachments/assets/12d0b20e-3299-423a-a8be-788bfe711048)
    
-5. Fill in your credentials
+5. Fill in your credentials and connect
 
-   ![image](https://github.com/user-attachments/assets/89322add-63bb-4cbb-a8a2-5895b3ad27e7)
+   ![image](https://github.com/user-attachments/assets/32f196eb-0112-437c-9f0b-e78bca8e5357)
+
 
 6. Add the video capture device that you want to be automatically refreshed.
 
-   ![image](https://github.com/user-attachments/assets/b34797f4-3f6d-4b98-9995-d009858079e7)
+   ![image](https://github.com/user-attachments/assets/1a1d0df9-da6f-4d9f-8f94-3bd0f414a87b)
+
 
 7. Enjoy 👍👍👍👍👍
