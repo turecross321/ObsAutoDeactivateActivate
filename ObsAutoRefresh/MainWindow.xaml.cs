@@ -20,8 +20,8 @@ public partial class MainWindow : Window
     {
         this.InitializeComponent();
         this.LoadSave();
-        this.VideoCaptureDevices.ItemsSource = this._videoCaptureDevicesSource;
         
+        this.VideoCaptureDevices.ItemsSource = this._videoCaptureDevicesSource;
         this.VideoCaptureDevicesToRefresh.ItemsSource = this._videoCaptureDevicesToRefreshSource;
     }
     
@@ -166,7 +166,7 @@ public partial class MainWindow : Window
             this._videoCaptureDevicesToRefreshSource.Add(name);
         }
 
-        this._save.VideoCaptureDevicesToRefresh = this._videoCaptureDevicesSource.ToList();
+        this._save.VideoCaptureDevicesToRefresh = this._videoCaptureDevicesToRefreshSource.ToList();
         Save();
     }
 
