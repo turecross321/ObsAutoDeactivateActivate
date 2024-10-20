@@ -12,22 +12,22 @@ Whenever a USB unplugging is detected by Windows, this script will forcefully re
 
 ## Prerequisites
 - Windows
-- Either OBS version 28 or later, or an older version of OBS with the [websocket plugin](https://github.com/obsproject/obs-websocket/releases).
+- Either OBS version 28 or later, or an older version of OBS with the [websocket plugin](https://github.com/obsproject/obs-websocket/releases)
 
 ## How to use
-1. Enable the OBS WebSocket server
+1. Enable the OBS WebSocket server.
    
    ![image](https://github.com/user-attachments/assets/1009ac63-49e3-4e58-be2b-c3d745195914)
    
    ![image](https://github.com/user-attachments/assets/263eb5c9-bdef-493d-a94f-f8b66a477c1d)
 
 
-3. Download the [latest release](https://github.com/turecross321/ObsAutoRefresh/releases) of ObsAutoRefresh
-4. Extract `win-x64.zip` and run `ObsAutoRefresh.exe`
+3. Download the [latest release](https://github.com/turecross321/ObsAutoRefresh/releases) of ObsAutoRefresh.
+4. Extract `ObsAutoRefresh-Windows-x64.zip` and run `ObsAutoRefresh.exe`.
 
    ![image](https://github.com/user-attachments/assets/12d0b20e-3299-423a-a8be-788bfe711048)
    
-5. Fill in your credentials and connect
+5. Fill in your credentials and connect.
 
    ![image](https://github.com/user-attachments/assets/32f196eb-0112-437c-9f0b-e78bca8e5357)
 
