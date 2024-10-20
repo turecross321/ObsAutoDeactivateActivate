@@ -31,7 +31,9 @@ Whenever a USB unplugging is detected by Windows, this script will forcefully re
 
    ![image](https://github.com/user-attachments/assets/61545a16-1dda-46e8-8bd2-a7bcff741312)
 
-   Note: You can enter your IP in the host field like `ws://<ip>`, but `ws://localhost` should already work if OBS and ObsAutoRefresh are running on the same computer.
+   Note:
+      - You can enter your IP in the host field like `ws://<ip>`, but `ws://localhost` should already work if OBS and ObsAutoRefresh are running on the same computer.
+      - If you do not wish to use a password for the OBS Websocket server, you may leave the password field in ObsAutoRefresh blank.
 
 
 
