@@ -29,12 +29,15 @@ Whenever a USB unplugging is detected by Windows, this script will forcefully re
    
 5. Fill in your credentials and connect.
 
-   ![image](https://github.com/user-attachments/assets/32f196eb-0112-437c-9f0b-e78bca8e5357)
+   ![image](https://github.com/user-attachments/assets/61545a16-1dda-46e8-8bd2-a7bcff741312)
+
+   Note: You can enter your IP in the host field like `ws://<ip>`, but `ws://localhost` should already work if OBS and ObsAutoRefresh are running on the same computer.
 
 
-6. Add the video capture device that you want to be automatically refreshed.
+
+7. Add the video capture device that you want to be automatically refreshed.
 
    ![image](https://github.com/user-attachments/assets/1a1d0df9-da6f-4d9f-8f94-3bd0f414a87b)
 
 
-7. Enjoy 👍👍👍👍👍
+8. Enjoy 👍👍👍👍👍
