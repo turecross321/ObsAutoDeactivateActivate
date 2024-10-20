@@ -96,7 +96,7 @@ public partial class MainWindow : Window
             this.NotConnectedPanel.Visibility = Visibility.Visible;
             if (this._usbMonitorManager != null)
             {
-                this._usbMonitorManager.UsbChanged -= MOnUsbChanged;
+                this._usbMonitorManager.UsbDeviceInterface -= MOnUsbChanged;
                 this._usbMonitorManager.Stop();
                 this._usbMonitorManager = null;
             }
@@ -113,7 +113,7 @@ public partial class MainWindow : Window
             SetVideoCaptureDevicesToRefreshFromSave();
             
             this._usbMonitorManager = new UsbMonitorManager(this);
-            this._usbMonitorManager.UsbChanged += MOnUsbChanged;
+            this._usbMonitorManager.UsbDeviceInterface += MOnUsbChanged;
         });
     }
     
@@ -210,6 +210,7 @@ public partial class MainWindow : Window
     
     private void MOnUsbChanged(object? sender, UsbEventArgs e)
     {
-        this.RefreshDevices();
+        if (e.Action == UsbDeviceChangeEvent.Arrival)
+            this.RefreshDevices();
     }
 }

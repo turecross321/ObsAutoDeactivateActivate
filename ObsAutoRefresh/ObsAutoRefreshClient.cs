@@ -61,6 +61,6 @@ public class ObsAutoRefreshClient
     private void ObsOnConnected(object? sender, EventArgs e)
     {
         LogMessage("Connected to OBS");
-        this.ConnectEvent.Invoke();
+        this.ConnectEvent?.Invoke();
     }
 }
